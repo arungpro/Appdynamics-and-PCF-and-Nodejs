@@ -6,13 +6,12 @@ A simple demo to instrument Nodejs Application using Appd nodejs agent in PCF en
 
 ## Install and Setup
 
-
-```
 Step 1: Clone project and enter into project folder
 ```
 git clone git@github.com:arungpro/Appdynamics-and-PCF-and-Nodejs.git
 cd Appdynamics-and-PCF-and-Nodejs
 ```
+
 Step 2: Edit below section of index.js:
 
 ```
@@ -25,7 +24,7 @@ require("appdynamics").profile({
  tierName: '<Your Tier Name>',
  nodeName: '<Your Node Name>',
 });
-
+```
 Step 3: cf step and do login as define in https://docs.pivotal.io/partners/appdynamics/using.html
 
 Step 4: Push to cloud with https://github.com/Appdynamics/nodejs-buildpack as buildpack
