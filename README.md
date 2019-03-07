@@ -8,8 +8,8 @@ A simple demo to instrument Nodejs Application using Appd nodejs agent in PCF en
 
 Step 1: Clone project and enter into project folder
 ```
-git clone git@github.com:arungpro/Appdynamics-and-PCF-and-Nodejs.git
-cd Appdynamics-and-PCF-and-Nodejs
+git clone https://github.com/arungpro/Appdynamics-and-PCF-and-Nodejs.git
+cd Appdynamics-and-PCF-and-Nodejs/testarungapp
 ```
 
 Step 2: Edit below section of index.js:
