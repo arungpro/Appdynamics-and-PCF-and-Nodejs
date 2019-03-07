@@ -6,6 +6,7 @@ require("appdynamics").profile({
  applicationName: 'Docker_devil',
  tierName: 'pcf',
  nodeName: 'process',
+ libagent: true
 });
 const express = require('express')
 const app = express()
